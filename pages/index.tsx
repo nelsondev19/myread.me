@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="myreadme - Customize your README.md file with ready-to-use sections in a simple way with the web editor"
+          content="myreadme - Web editor for Markdown files"
         />
         <meta
           property="og:description"
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <meta name="twitter:creator" content="@midudev" />
         <meta
           name="twitter:title"
-          content="myreadme - Customize your README.md file with ready-to-use sections in a simple way with the web editor"
+          content="myreadme - Web editor for Markdown files"
         />
         <meta
           property="twitter:description"

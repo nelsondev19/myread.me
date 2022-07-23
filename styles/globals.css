@@ -1,26 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #57606a;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.logo-float {
+  animation: float 4s ease-in-out infinite both;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@keyframes float {
+  0% {
+    transform: translateY(5%);
   }
-  body {
-    color: white;
-    background: black;
+
+  50% {
+    transform: translateY(15%);
   }
+
+  100% {
+    transform: translateY(5%);
+  }
+}
+
+.download-docker {
+  background: #0a121b;
+  color: white;
+  padding: 30px;
+  font-size: 18px;
+}
+
+/* SCROLL BODY */
+body {
+  overflow: scroll;
+  height: 100vh;
+  width: auto;
+  overflow-x: hidden;
+  transition: 1s;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+  background: rgb(222, 219, 219);
+}
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #000000;
 }

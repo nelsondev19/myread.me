@@ -11,7 +11,9 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #57606a;
 }
-
+.text-logo{
+  color: #8609C9;
+}
 .logo-float {
   animation: float 4s ease-in-out infinite both;
 }

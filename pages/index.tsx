@@ -168,7 +168,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      <div className="bg-violet-800	mt-20">
+      <div className="bg-screen	mt-20">
         <br />
         <br />
         <br />
@@ -213,15 +213,12 @@ const Home: NextPage = () => {
           </div>
           <div className="mt-32">
             <div className="text-3xl md:text-6xl font-extrabold">
-              <span className="bg-clip-text text-black">
-                Download Container
-              </span>
+              <span className="bg-clip-text text-logo">Docker Image</span>
             </div>
             <br />
             <p className="text-xl md:text-2xl max-w-4xl">
-              GitHub Actions connects all of your tools to automate every step
-              of your development workflow. Easily deploy to any cloud, create
-              tickets in Jira, or publish a package to npm.
+              Official docker image already available with the following
+              command:
             </p>
 
             <br />

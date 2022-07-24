@@ -14,6 +14,9 @@ body {
 .text-logo{
   color: #8609C9;
 }
+.bg-screen{
+  background: #8609C9;
+}
 .logo-float {
   animation: float 4s ease-in-out infinite both;
 }
@@ -36,6 +39,7 @@ body {
   color: white;
   padding: 30px;
   font-size: 18px;
+  border-radius: 5px;
 }
 
 /* SCROLL BODY */

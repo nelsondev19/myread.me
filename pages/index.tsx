@@ -108,8 +108,8 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      <div className="	mt-20">
-        <div className="drop-shadow-2xl flex justify-center items-center m-3">
+      <div className="mt-20 m-3">
+        <div className="drop-shadow-2xl flex justify-center items-center">
           <Image
             unoptimized={true}
             src={"/screenshot.png"}

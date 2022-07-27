@@ -15,7 +15,7 @@ function About() {
         <br />
         <div className="max-w-screen-md m-auto">
           <p className="text-xl md:text-2xl">
-            <strong>myreadme</strong> is a code editor forWeb and Docker, since
+            <strong>myreadme</strong> is a code editor for Web and Docker, since
             2022.
           </p>
           <br />

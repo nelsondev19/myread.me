@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 const Home: NextPage = () => {
   return (
@@ -39,92 +40,31 @@ const Home: NextPage = () => {
         />
         <meta name="twitter:image" content="/preview.png" />
       </Head>
-
+      <Navbar />
       <main className="m-3">
         <br />
-        <figure className="flex justify-center self-center">
-          <svg
-            className="h-48 md:h-72"
-            viewBox="0 0 649 577"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="Group 1">
-              <g id="right">
-                <path
-                  id="Vector"
-                  d="M486.917 165.802H648.708V489.37H486.917V165.802Z"
-                  fill="#8609C9"
-                />
-              </g>
-              <g id="Group">
-                <path
-                  id="Vector_2"
-                  d="M163.422 576.844V492.953H485.99V576.844H163.422Z"
-                  fill="#8609C9"
-                />
-              </g>
-              <g id="left">
-                <path
-                  id="Vector_3"
-                  d="M0 165.802H161.792V489.37H0V165.802Z"
-                  fill="#8609C9"
-                />
-              </g>
-              <g id="Group_2">
-                <path
-                  id="Vector_4"
-                  d="M162.016 161.797V0H485.589V161.797H162.016Z"
-                  fill="#8609C9"
-                />
-              </g>
-              <g id="Group_3">
-                <path
-                  id="Vector_5"
-                  d="M229.63 43.651C209.224 43.651 192.677 60.1927 192.677 80.6042C192.677 101.01 209.224 117.552 229.63 117.552C250.036 117.552 266.583 101.01 266.583 80.6042C266.583 60.1927 250.036 43.651 229.63 43.651Z"
-                  fill="white"
-                />
-              </g>
-              <g id="sharp">
-                <g id="Group_4">
-                  <g id="Group_5">
-                    <path
-                      id="Vector_6"
-                      d="M421.398 268.645C423.258 268.645 424.773 269.291 425.94 270.582C427.107 271.864 427.69 273.551 427.69 275.645V292.478C427.69 295.978 426.753 298.494 424.878 300.02C423.013 301.536 420.096 302.291 416.128 302.291H383.544L377.586 342.228H409.836C411.695 342.228 413.211 342.874 414.378 344.166C415.544 345.447 416.128 347.14 416.128 349.249V366.062C416.128 369.562 415.19 372.077 413.315 373.603C411.451 375.119 408.534 375.874 404.565 375.874H373.023L363.211 442.812C362.753 447.478 361.82 450.577 360.419 452.103C359.013 453.619 356.211 454.135 352.003 453.666L338.69 451.916C334.482 451.207 331.674 450.39 330.273 449.457C328.867 448.53 328.284 446.541 328.523 443.499L338.336 375.874H294.544L284.732 442.812C284.258 447.478 283.32 450.577 281.919 452.103C280.513 453.619 277.716 454.135 273.523 453.666L260.19 451.916C255.992 451.207 253.195 450.39 251.794 449.457C250.388 448.53 249.805 446.541 250.044 443.499L259.857 375.874H229.003C225.503 375.874 223.107 375.176 221.815 373.77C220.534 372.369 219.898 370.145 219.898 367.103V350.291C219.898 344.916 222.117 342.228 226.565 342.228H264.753L270.711 302.291H240.565C237.065 302.291 234.669 301.593 233.378 300.187C232.096 298.786 231.461 296.562 231.461 293.52V276.707C231.461 271.332 233.68 268.645 238.128 268.645H275.607L285.419 202.062C286.596 196.228 288.82 193.431 292.086 193.666L313.461 195.749C318.128 196.223 320.112 198.562 319.419 202.77L309.961 268.645H354.107L363.919 202.062C365.086 196.228 367.305 193.431 370.586 193.666L391.961 195.749C396.628 196.223 398.612 198.562 397.919 202.77L388.461 268.645H421.398ZM349.211 302.291H305.044L299.086 342.228H343.253L349.211 302.291Z"
-                      fill="#8609C9"
-                    />
-                  </g>
-                </g>
-              </g>
-              <g id="Group_6">
-                <path
-                  id="Vector_7"
-                  d="M414.635 43.651C394.224 43.651 377.682 60.1927 377.682 80.6042C377.682 101.01 394.224 117.552 414.635 117.552C435.042 117.552 451.589 101.01 451.589 80.6042C451.589 60.1927 435.042 43.651 414.635 43.651Z"
-                  fill="white"
-                />
-              </g>
-            </g>
-          </svg>
-        </figure>
         <br />
         <br />
-
         <div className="text-center">
-          <div className="text-3xl md:text-6xl font-extrabold">
-            <span className="bg-clip-text text-logo">MYREADME</span>
+          <div className="text-3xl md:text-4xl font-extrabold">
+            <span className="bg-clip-text text-logo">
+              Minimalist markdown editor
+            </span>
           </div>
           <br />
-          <p className="text-xl md:text-2xl">
-            Customize your <strong>README.md</strong> file with ready-to-use
-            sections in a simple way with the web editor
-          </p>
+          <div className="max-w-screen-md m-auto">
+            <p className="text-xl md:text-2xl">
+              Customize your <strong>README.md</strong> file with ready-to-use
+              sections in a simple way with the web editor
+            </p>
+          </div>
         </div>
         <div className="flex justify-center self-center gap-3">
           <div className="text-center md:text-left">
             <a
               target={"_blank"}
               href="https://editor.myread.me"
-              className="bg-transparent hover:bg-blue-600 text-blue-600 font-semibold hover:text-white py-2 mt-6 px-4 border border-blue-600 hover:border-transparent rounded inline-flex items-center ease-in-out"
+              className="bg-blue-800 font-semibold text-white py-2 mt-6 px-4 border border-blue-800  rounded inline-flex items-center ease-in-out"
               rel="noreferrer"
             >
               <svg
@@ -168,11 +108,8 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      <div className="bg-screen	mt-20">
-        <br />
-        <br />
-        <br />
-        <div className="drop-shadow-4xl flex justify-center items-center m-3">
+      <div className="	mt-20">
+        <div className="drop-shadow-2xl flex justify-center items-center m-3">
           <Image
             unoptimized={true}
             src={"/screenshot.png"}
@@ -180,15 +117,6 @@ const Home: NextPage = () => {
             alt=""
             height="550"
           />
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="white"
-              fillOpacity="1"
-              d="M0,288L1440,64L1440,320L0,320Z"
-            ></path>
-          </svg>
         </div>
       </div>
 
@@ -205,14 +133,14 @@ const Home: NextPage = () => {
               <g>
                 <path
                   d="M250.715745,70.4971666 C244.951102,66.4973277 231.740464,64.997388 221.412146,66.9973071 C220.211179,56.9977092 214.68673,48.2480609 205.078993,40.4983724 L199.554544,36.4985331 L195.711449,42.248302 C190.90758,49.7480006 188.505646,60.2475786 189.226226,70.2471769 C189.46642,73.7470364 190.667387,79.9967847 194.270289,85.496564 C190.90758,87.4964838 183.941971,89.996383 174.814621,89.996383 L1.15476998,89.996383 L0.674383104,91.9963028 C-1.00697093,101.9959 -1.00697093,133.244645 18.6888904,157.243681 C33.5808831,175.492947 55.6786788,184.742575 84.7420842,184.742575 C147.672763,184.742575 194.270289,154.493791 216.127891,99.7459909 C224.774854,99.9959813 243.269748,99.7459909 252.637292,80.996745 C252.877486,80.4967649 253.357872,79.4968046 255.039227,75.7469554 L256,73.7470364 L250.715745,70.4971666 L250.715745,70.4971666 Z M139.986573,0 L113.565295,0 L113.565295,24.9989952 L139.986573,24.9989952 L139.986573,0 L139.986573,0 Z M139.986573,29.9987943 L113.565295,29.9987943 L113.565295,54.9977896 L139.986573,54.9977896 L139.986573,29.9987943 L139.986573,29.9987943 Z M108.761427,29.9987943 L82.3401495,29.9987943 L82.3401495,54.9977896 L108.761427,54.9977896 L108.761427,29.9987943 L108.761427,29.9987943 Z M77.5362814,29.9987943 L51.1150037,29.9987943 L51.1150037,54.9977896 L77.5362814,54.9977896 L77.5362814,29.9987943 L77.5362814,29.9987943 Z M46.311135,59.9975886 L19.8898576,59.9975886 L19.8898576,84.9965839 L46.311135,84.9965839 L46.311135,59.9975886 L46.311135,59.9975886 Z M77.5362814,59.9975886 L51.1150037,59.9975886 L51.1150037,84.9965839 L77.5362814,84.9965839 L77.5362814,59.9975886 L77.5362814,59.9975886 Z M108.761427,59.9975886 L82.3401495,59.9975886 L82.3401495,84.9965839 L108.761427,84.9965839 L108.761427,59.9975886 L108.761427,59.9975886 Z M139.986573,59.9975886 L113.565295,59.9975886 L113.565295,84.9965839 L139.986573,84.9965839 L139.986573,59.9975886 L139.986573,59.9975886 Z M171.211719,59.9975886 L144.790441,59.9975886 L144.790441,84.9965839 L171.211719,84.9965839 L171.211719,59.9975886 L171.211719,59.9975886 Z"
-                  fill="#000000"
+                  fill="#2391E6"
                   fillRule="nonzero"
                 ></path>
               </g>
             </svg>
           </div>
           <div className="mt-32">
-            <div className="text-3xl md:text-6xl font-extrabold">
+            <div className="text-3xl md:text-4xl font-extrabold">
               <span className="bg-clip-text text-logo">Docker Image</span>
             </div>
             <br />
@@ -229,7 +157,10 @@ const Home: NextPage = () => {
         </div>
       </div>
       <p className="text-center font-light mt-52">
-        MIT License | Nelson Hernández
+        MIT License |{" "}
+        <a className="text-indigo-700" href="https://github.com/nelsondev19">
+          Nelson Hernández
+        </a>
       </p>
       <br />
     </div>

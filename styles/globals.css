@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,14 +6,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
-  color: #57606a;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: #180821;
 }
-.text-logo{
-  color: #8609C9;
+.text-logo {
+  color: #414141;
 }
-.bg-screen{
-  background: #8609C9;
+.bg-screen {
+  background: #8609c9;
 }
 .logo-float {
   animation: float 4s ease-in-out infinite both;
@@ -33,7 +33,15 @@ body {
     transform: translateY(5%);
   }
 }
+.bg-twitter {
+  color: #6366f1;
+  border-color: #6366f1;
+  fill: #6366f1;
+}
 
+.bg-twitter:hover {
+  background: #6366f1;
+}
 .download-docker {
   background: #0a121b;
   color: white;

@@ -24,7 +24,7 @@ function Navbar() {
             <div className="text-center md:text-left">
               <a
                 target={"_blank"}
-                href="https://github.com/nelsondev19/myreadme"
+                href="https://twitter.com/intent/tweet?text=%22Create%20your%20file%20README%20.md%20with%20https://www.myread.me%20created%20by%20@nelsoncode_dev%20%F0%9F%9A%80%22"
                 className=" hover:fill-white bg-twitter  font-semibold hover:text-white py-2 px-4 border rounded  inline-flex items-center ease-in-out"
                 rel="noreferrer"
               >

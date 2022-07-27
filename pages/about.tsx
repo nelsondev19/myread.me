@@ -3,37 +3,42 @@ import React from "react";
 function About() {
   return (
     <>
-      <br />
-      <br />
-      <br />
-      <div className="text-center">
-        <div className="text-3xl md:text-4xl font-extrabold">
-          <span className="bg-clip-text text-logo">About</span>
+      <div className="m-3">
+        <br />
+        <br />
+        <br />
+        <div className="text-center">
+          <div className="text-3xl md:text-4xl font-extrabold">
+            <span className="bg-clip-text text-logo">About</span>
+          </div>
         </div>
-      </div>
-      <br />
-      <div className="max-w-screen-md m-auto">
-        <p className="text-xl md:text-2xl">
-          <strong>myreadme</strong> is a code editor forWeb and Docker, since
-          2022.
-        </p>
         <br />
-        <p className="text-xl md:text-2xl">
-          Creator and maintainer:{" "}
-          <a className="text-indigo-700" href="https://github.com/nelsondev19">
-            Nelson Hernández
-          </a>
-        </p>
-        <br />
-        <p className="text-xl md:text-2xl">
-          Source Code:{" "}
-          <a
-            className="text-indigo-700"
-            href="https://github.com/nelsondev19/myreadme"
-          >
-            GitHub
-          </a>
-        </p>
+        <div className="max-w-screen-md m-auto">
+          <p className="text-xl md:text-2xl">
+            <strong>myreadme</strong> is a code editor forWeb and Docker, since
+            2022.
+          </p>
+          <br />
+          <p className="text-xl md:text-2xl">
+            Creator and maintainer:{" "}
+            <a
+              className="text-indigo-700"
+              href="https://github.com/nelsondev19"
+            >
+              Nelson Hernández
+            </a>
+          </p>
+          <br />
+          <p className="text-xl md:text-2xl">
+            Source Code:{" "}
+            <a
+              className="text-indigo-700"
+              href="https://github.com/nelsondev19/myreadme"
+            >
+              GitHub
+            </a>
+          </p>
+        </div>
       </div>
     </>
   );

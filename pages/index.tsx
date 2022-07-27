@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "./components/Navbar";
 
 const Home: NextPage = () => {
   return (
@@ -40,7 +39,6 @@ const Home: NextPage = () => {
         />
         <meta name="twitter:image" content="/preview.png" />
       </Head>
-      <Navbar />
       <main className="m-3">
         <br />
         <br />

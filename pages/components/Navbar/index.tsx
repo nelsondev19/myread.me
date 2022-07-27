@@ -19,7 +19,7 @@ function Navbar() {
               <Link href="/">Home</Link>
             </div>
             <div className="flex justify-center items-center">
-              <Link href="/">About</Link>
+              <Link href="/about">About</Link>
             </div>
             <div className="text-center md:text-left">
               <a

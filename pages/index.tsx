@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="flex justify-center self-center gap-3">
-          <div className="text-center md:text-left">
+          <div className="text-base text-center md:text-left">
             <a
               target={"_blank"}
               href="https://editor.myread.me"
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
               <span className="ml-1">Open Editor</span>
             </a>
           </div>
-          <div className="text-center md:text-left">
+          <div className="text-base text-center md:text-left">
             <a
               target={"_blank"}
               href="https://github.com/nelsondev19/myreadme"

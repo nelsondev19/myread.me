@@ -16,11 +16,12 @@ function Navbar() {
             <div className="flex justify-center items-center">
               <Link href="/about">About</Link>
             </div>
-            <div className="hidden md:block text-center md:text-left text-base ">
+
+            <div className="hidden md:block text-base text-center md:text-left">
               <a
                 target={"_blank"}
-                href="https://twitter.com/intent/tweet?text=%22Create%20your%20file%20README%20.md%20with%20https://www.myread.me%20created%20by%20@nelsoncode_dev%20%F0%9F%9A%80%22"
-                className="fill-white bg-twitter font-semibold text-white py-2 px-4 border rounded  inline-flex items-center ease-in-out"
+                href="https://editor.myread.me"
+                className="fill-white bg-twitter text-xl text-white py-2 px-4 border rounded inline-flex items-center ease-in-out"
                 rel="noreferrer"
               >
                 <svg

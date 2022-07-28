@@ -44,10 +44,8 @@ const Home: NextPage = () => {
         <br />
         <br />
         <div className="text-center">
-          <div className="text-3xl md:text-4xl font-extrabold">
-            <span className="bg-clip-text text-logo">
-              Minimalist markdown editor
-            </span>
+          <div className="text-2xl md:text-4xl font-extrabold">
+            <span>Minimalist markdown editor</span>
           </div>
           <br />
           <div className="max-w-screen-md m-auto">
@@ -62,7 +60,7 @@ const Home: NextPage = () => {
             <a
               target={"_blank"}
               href="https://editor.myread.me"
-              className="bg-blue-600 text-xl font-semibold text-white py-2 mt-6 px-4 border border-blue-600  rounded inline-flex items-center ease-in-out"
+              className="bg-blue-600 text-xl text-white py-2 mt-6 px-4 border border-blue-600  rounded inline-flex items-center ease-in-out"
               rel="noreferrer"
             >
               <svg
@@ -85,8 +83,8 @@ const Home: NextPage = () => {
           <div className="text-base text-center md:text-left">
             <a
               target={"_blank"}
-              href="https://github.com/nelsondev19/myreadme"
-              className=" text-xl fill-white bg-black  font-semibold text-white py-2 mt-6 px-4 border rounded inline-flex items-center"
+              href="https://editor.myread.me"
+              className="bg-black fill-white text-xl text-white py-2 mt-6 px-4 border rounded inline-flex items-center ease-in-out"
               rel="noreferrer"
             >
               <svg
@@ -138,11 +136,11 @@ const Home: NextPage = () => {
             </svg>
           </div>
           <div className="mt-32">
-            <div className="text-3xl md:text-4xl font-extrabold">
-              <span className="bg-clip-text text-logo">Docker Image</span>
+            <div className="text-center text-2xl md:text-4xl font-extrabold">
+              <span>Docker Image</span>
             </div>
             <br />
-            <p className="text-base text-xl max-w-4xl">
+            <p className="text-center text-base max-w-4xl">
               Official docker image already available with the following
               command:
             </p>

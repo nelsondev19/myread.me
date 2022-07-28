@@ -148,7 +148,7 @@ const Home: NextPage = () => {
             </p>
 
             <br />
-            <div className="download-docker max-w-4xl">
+            <div className="download-docker max-w-3xl">
               $ docker run -p 7000:3000 nelsoncode/myreadme:latest
             </div>
           </div>

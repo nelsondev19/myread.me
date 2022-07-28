@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import "@fontsource/inter";
 import type { AppProps } from "next/app";
 import Navbar from "./components/Navbar";
 

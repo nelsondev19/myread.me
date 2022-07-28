@@ -14,12 +14,12 @@ function About() {
         </div>
         <br />
         <div className="max-w-screen-md m-auto">
-          <p className="text-xl md:text-2xl">
+          <p className="text-base md:text-2xl">
             <strong>myreadme</strong> is a code editor for Web and Docker, since
             2022.
           </p>
           <br />
-          <p className="text-xl md:text-2xl">
+          <p className="text-base md:text-2xl">
             Creator and maintainer:{" "}
             <a
               className="text-indigo-700"
@@ -29,7 +29,7 @@ function About() {
             </a>
           </p>
           <br />
-          <p className="text-xl md:text-2xl">
+          <p className="text-base md:text-2xl">
             Source Code:{" "}
             <a
               className="text-indigo-700"

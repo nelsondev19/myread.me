@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="m-2 text-xl">
+    <nav className="m-2 text-base">
       <div className="max-w-screen-lg m-auto">
         <div className="grid grid-cols-2">
           <div className="font-extrabold flex justify-center items-center">

@@ -51,7 +51,7 @@ const Home: NextPage = () => {
           </div>
           <br />
           <div className="max-w-screen-md m-auto">
-            <p className="text-xl">
+            <p className="text-base">
               Customize your <strong>README.md</strong> file with ready-to-use
               sections in a simple way with the web editor
             </p>
@@ -142,7 +142,7 @@ const Home: NextPage = () => {
               <span className="bg-clip-text text-logo">Docker Image</span>
             </div>
             <br />
-            <p className="text-xl max-w-4xl">
+            <p className="text-base text-xl max-w-4xl">
               Official docker image already available with the following
               command:
             </p>

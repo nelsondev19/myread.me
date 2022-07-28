@@ -3,11 +3,11 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="m-2">
-      <div className="max-w-screen-md m-auto">
+    <nav className="m-2 text-xl">
+      <div className="max-w-screen-lg m-auto">
         <div className="grid grid-cols-2">
-          <div className="flex justify-center items-center">
-            <Link href="/">myreadme</Link>
+          <div className="font-extrabold flex justify-center items-center">
+            <Link href="/">MYREADME</Link>
           </div>
           <div className="grid nav-grid-column">
             <div className="flex justify-center items-center">
@@ -20,7 +20,7 @@ function Navbar() {
               <a
                 target={"_blank"}
                 href="https://twitter.com/intent/tweet?text=%22Create%20your%20file%20README%20.md%20with%20https://www.myread.me%20created%20by%20@nelsoncode_dev%20%F0%9F%9A%80%22"
-                className=" hover:fill-white bg-twitter  font-semibold hover:text-white py-2 px-4 border rounded  inline-flex items-center ease-in-out"
+                className="fill-white bg-twitter font-semibold text-white py-2 px-4 border rounded  inline-flex items-center ease-in-out"
                 rel="noreferrer"
               >
                 <svg
@@ -30,9 +30,6 @@ function Navbar() {
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                   preserveAspectRatio="xMidYMid"
-                  style={{
-                    marginRight: "0.2rem",
-                  }}
                 >
                   <title>Twitter</title>
                   <g>

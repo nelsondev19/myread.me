@@ -51,7 +51,7 @@ const Home: NextPage = () => {
           </div>
           <br />
           <div className="max-w-screen-md m-auto">
-            <p className="text-xl md:text-2xl">
+            <p className="text-xl">
               Customize your <strong>README.md</strong> file with ready-to-use
               sections in a simple way with the web editor
             </p>
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
             <a
               target={"_blank"}
               href="https://editor.myread.me"
-              className="bg-blue-800 font-semibold text-white py-2 mt-6 px-4 border border-blue-800  rounded inline-flex items-center ease-in-out"
+              className="bg-blue-600 text-xl font-semibold text-white py-2 mt-6 px-4 border border-blue-600  rounded inline-flex items-center ease-in-out"
               rel="noreferrer"
             >
               <svg
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             <a
               target={"_blank"}
               href="https://github.com/nelsondev19/myreadme"
-              className="bg-transparent hover:fill-white hover:bg-black text-black font-semibold hover:text-white py-2 mt-6 px-4 border border-black rounded inline-flex items-center ease-in-out"
+              className=" text-xl fill-white bg-black  font-semibold text-white py-2 mt-6 px-4 border rounded inline-flex items-center"
               rel="noreferrer"
             >
               <svg
@@ -142,7 +142,7 @@ const Home: NextPage = () => {
               <span className="bg-clip-text text-logo">Docker Image</span>
             </div>
             <br />
-            <p className="text-xl md:text-2xl max-w-4xl">
+            <p className="text-xl max-w-4xl">
               Official docker image already available with the following
               command:
             </p>

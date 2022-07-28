@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,13 +7,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Roboto Mono", monospace;
   color: #180821;
 }
-.text-logo {
+
+.text-title {
   color: #414141;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 900;
 }
 .bg-screen {
   background: #8609c9;
@@ -34,14 +37,10 @@ body {
   }
 }
 .bg-twitter {
-  color: #6366f1;
   border-color: #6366f1;
-  fill: #6366f1;
-}
-
-.bg-twitter:hover {
   background: #6366f1;
 }
+
 .download-docker {
   background: #0a121b;
   color: white;

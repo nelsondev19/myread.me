@@ -154,7 +154,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <p className="text-center font-light mt-52">
+      <p className="text-center text-base mt-52">
         MIT License |{" "}
         <a className="text-indigo-700" href="https://github.com/nelsondev19">
           Nelson Hernández

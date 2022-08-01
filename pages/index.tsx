@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@nelsoncode_dev" />
-        <meta name="twitter:creator" content="@midudev" />
+        <meta name="twitter:creator" content="@nelsoncode_dev" />
         <meta
           name="twitter:title"
           content="myreadme - Web editor for Markdown files"

@@ -83,7 +83,7 @@ const Home: NextPage = () => {
           <div className="text-base text-center md:text-left">
             <a
               target={"_blank"}
-              href="https://editor.myread.me"
+              href="https://github.com/nelsondev19/myreadme"
               className="bg-black fill-white text-xl text-white py-2 mt-6 px-4 border rounded inline-flex items-center ease-in-out"
               rel="noreferrer"
             >

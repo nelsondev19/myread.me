@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #343a40;
+}
+
+.logo-float {
+  animation: float 4s ease-in-out infinite both;
+}
+@keyframes float {
+  0% {
+    transform: translateY(5%);
+  }
+
+  50% {
+    transform: translateY(15%);
+  }
+
+  100% {
+    transform: translateY(5%);
+  }
+}
+
+/* SCROLL BODY */
+body {
+  overflow: scroll;
+  height: 100vh;
+  width: auto;
+  overflow-x: hidden;
+  transition: 1s;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+  background: rgb(222, 219, 219);
+}
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #000000;
+}

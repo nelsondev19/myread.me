@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Allow: /about
+
+
+Sitemap: https://www.myread.me/sitemap.xml
